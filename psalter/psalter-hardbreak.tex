@@ -1,0 +1,688 @@
+\documentclass[12pt]{extarticle}
+
+\usepackage{indentfirst}
+\usepackage{fontspec}
+\usepackage{multicol}
+\usepackage{titlesec}
+
+\titleformat{\section}
+  {\normalfont\LARGE\bfseries\centering}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\bfseries\centering}{\thesubsection}{1em}{}
+
+\setmainfont [
+  Path = ./../fonts/linux-libertine/,
+  Extension = .ttf,
+  UprightFont = *-regular,
+  BoldFont = *-bold,
+  ItalicFont = *-italic,
+  BoldItalicFont= *-bold-italic,
+]{linux-libertine}
+
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage[
+ letterpaper,
+ right=1.2in,
+ left=1.2in,
+ top=.5in,
+ bottom=.5in
+]{geometry}
+
+\pagenumbering{gobble}
+
+\setlength{\columnsep}{0.5in}
+\widowpenalties 1 10000
+\raggedbottom
+
+\setcounter{secnumdepth}{0}
+
+\title{The Psalter}
+\author{Michael Asser}
+\date{\today}
+
+\newcommand{\kathismabreak}{
+  \medskip
+  \begin{center}
+  \begin{footnotesize}
+  \input{../common/src/glory-both-now.tex}
+
+  \input{../common/src/alleluia.tex}
+
+  \input{../common/src/lord-have-mercy-3.tex}
+
+  \input{../common/src/glory-both-now.tex}
+  \end{footnotesize}
+  \end{center}
+  \smallbreak
+}
+
+\newcommand{\kathismaend}{
+  \medskip
+  \begin{center}
+  \begin{footnotesize}
+  \input{../common/src/glory-both-now.tex}
+
+  \input{../common/src/alleluia.tex}
+
+  Our Hope, O Lord, glory be to Thee.
+  \end{footnotesize}
+  \end{center}
+  \smallbreak
+}
+
+
+\begin{document}
+\begin{multicols}{2}
+
+\subsubsection{Psalm 1}
+\input{src/psalm001}
+\newpage
+
+\subsubsection{Psalm 2}
+\input{src/psalm002}
+\newpage
+
+\subsubsection{Psalm 3}
+\input{src/psalm003}
+\newpage
+
+\subsubsection{Psalm 4}
+\input{src/psalm004}
+\newpage
+
+\subsubsection{Psalm 5}
+\input{src/psalm005}
+\newpage
+
+\subsubsection{Psalm 6}
+\input{src/psalm006}
+\newpage
+
+\subsubsection{Psalm 7}
+\input{src/psalm007}
+\newpage
+
+\subsubsection{Psalm 8}
+\input{src/psalm008}
+\newpage
+
+\subsubsection{Psalm 9}
+\input{src/psalm009}
+\newpage
+
+\subsubsection{Psalm 10}
+\input{src/psalm010}
+\newpage
+
+\subsubsection{Psalm 11}
+\input{src/psalm011}
+\newpage
+
+\subsubsection{Psalm 12}
+\input{src/psalm012}
+\newpage
+
+\subsubsection{Psalm 13}
+\input{src/psalm013}
+\newpage
+
+\subsubsection{Psalm 14}
+\input{src/psalm014}
+\newpage
+
+\subsubsection{Psalm 15}
+\input{src/psalm015}
+\newpage
+
+\subsubsection{Psalm 16}
+\input{src/psalm016}
+\newpage
+
+\subsubsection{Psalm 17}
+\input{src/psalm017}
+\newpage
+
+\subsubsection{Psalm 18}
+\input{src/psalm018}
+\newpage
+
+\subsubsection{Psalm 19}
+\input{src/psalm019}
+\newpage
+
+\subsubsection{Psalm 20}
+\input{src/psalm020}
+\newpage
+
+\subsubsection{Psalm 21}
+\input{src/psalm021}
+\newpage
+
+\subsubsection{Psalm 22}
+\input{src/psalm022}
+\newpage
+
+\subsubsection{Psalm 23}
+\input{src/psalm023}
+\newpage
+
+\subsubsection{Psalm 24}
+\input{src/psalm024}
+\newpage
+
+\subsubsection{Psalm 25}
+\input{src/psalm025}
+\newpage
+
+\subsubsection{Psalm 26}
+\input{src/psalm026}
+\newpage
+
+\subsubsection{Psalm 27}
+\input{src/psalm027}
+\newpage
+
+\subsubsection{Psalm 28}
+\input{src/psalm028}
+\newpage
+
+\subsubsection{Psalm 29}
+\input{src/psalm029}
+\newpage
+
+\subsubsection{Psalm 30}
+\input{src/psalm030}
+\newpage
+
+\subsubsection{Psalm 31}
+\input{src/psalm031}
+\newpage
+
+\subsubsection{Psalm 32}
+\input{src/psalm032}
+\newpage
+
+\subsubsection{Psalm 33}
+\input{src/psalm033}
+\newpage
+
+\subsubsection{Psalm 34}
+\input{src/psalm034}
+\newpage
+
+\subsubsection{Psalm 35}
+\input{src/psalm035}
+\newpage
+
+\subsubsection{Psalm 36}
+\input{src/psalm036}
+\newpage
+
+\subsubsection{Psalm 37}
+\input{src/psalm037}
+\newpage
+
+\subsubsection{Psalm 38}
+\input{src/psalm038}
+\newpage
+
+\subsubsection{Psalm 39}
+\input{src/psalm039}
+\newpage
+
+\subsubsection{Psalm 40}
+\input{src/psalm040}
+\newpage
+
+\subsubsection{Psalm 41}
+\input{src/psalm041}
+\newpage
+
+\subsubsection{Psalm 42}
+\input{src/psalm042}
+\newpage
+
+\subsubsection{Psalm 43}
+\input{src/psalm043}
+\newpage
+
+\subsubsection{Psalm 44}
+\input{src/psalm044}
+\newpage
+
+\subsubsection{Psalm 45}
+\input{src/psalm045}
+\newpage
+
+\subsubsection{Psalm 46}
+\input{src/psalm046}
+\newpage
+
+\subsubsection{Psalm 47}
+\input{src/psalm047}
+\newpage
+
+\subsubsection{Psalm 48}
+\input{src/psalm048}
+\newpage
+
+\subsubsection{Psalm 49}
+\input{src/psalm049}
+\newpage
+
+\subsubsection{Psalm 50}
+\input{src/psalm050}
+\newpage
+
+\subsubsection{Psalm 51}
+\input{src/psalm051}
+\newpage
+
+\subsubsection{Psalm 52}
+\input{src/psalm052}
+\newpage
+
+\subsubsection{Psalm 53}
+\input{src/psalm053}
+\newpage
+
+\subsubsection{Psalm 54}
+\input{src/psalm054}
+\newpage
+
+\subsubsection{Psalm 55}
+\input{src/psalm055}
+\newpage
+
+\subsubsection{Psalm 56}
+\input{src/psalm056}
+\newpage
+
+\subsubsection{Psalm 57}
+\input{src/psalm057}
+\newpage
+
+\subsubsection{Psalm 58}
+\input{src/psalm058}
+\newpage
+
+\subsubsection{Psalm 59}
+\input{src/psalm059}
+\newpage
+
+\subsubsection{Psalm 60}
+\input{src/psalm060}
+\newpage
+
+\subsubsection{Psalm 61}
+\input{src/psalm061}
+\newpage
+
+\subsubsection{Psalm 62}
+\input{src/psalm062}
+\newpage
+
+\subsubsection{Psalm 63}
+\input{src/psalm063}
+\newpage
+
+\subsubsection{Psalm 64}
+\input{src/psalm064}
+\newpage
+
+\subsubsection{Psalm 65}
+\input{src/psalm065}
+\newpage
+
+\subsubsection{Psalm 66}
+\input{src/psalm066}
+\newpage
+
+\subsubsection{Psalm 67}
+\input{src/psalm067}
+\newpage
+
+\subsubsection{Psalm 68}
+\input{src/psalm068}
+\newpage
+
+\subsubsection{Psalm 69}
+\input{src/psalm069}
+\newpage
+
+\subsubsection{Psalm 70}
+\input{src/psalm070}
+\newpage
+
+\subsubsection{Psalm 71}
+\input{src/psalm071}
+\newpage
+
+\subsubsection{Psalm 72}
+\input{src/psalm072}
+\newpage
+
+\subsubsection{Psalm 73}
+\input{src/psalm073}
+\newpage
+
+\subsubsection{Psalm 74}
+\input{src/psalm074}
+\newpage
+
+\subsubsection{Psalm 75}
+\input{src/psalm075}
+\newpage
+
+\subsubsection{Psalm 76}
+\input{src/psalm076}
+\newpage
+
+\subsubsection{Psalm 77}
+\input{src/psalm077}
+\newpage
+
+\subsubsection{Psalm 78}
+\input{src/psalm078}
+\newpage
+
+\subsubsection{Psalm 79}
+\input{src/psalm079}
+\newpage
+
+\subsubsection{Psalm 80}
+\input{src/psalm080}
+\newpage
+
+\subsubsection{Psalm 81}
+\input{src/psalm081}
+\newpage
+
+\subsubsection{Psalm 82}
+\input{src/psalm082}
+\newpage
+
+\subsubsection{Psalm 83}
+\input{src/psalm083}
+\newpage
+
+\subsubsection{Psalm 84}
+\input{src/psalm084}
+\newpage
+
+\subsubsection{Psalm 85}
+\input{src/psalm085}
+\newpage
+
+\subsubsection{Psalm 86}
+\input{src/psalm086}
+\newpage
+
+\subsubsection{Psalm 87}
+\input{src/psalm087}
+\newpage
+
+\subsubsection{Psalm 88}
+\input{src/psalm088}
+\newpage
+
+\subsubsection{Psalm 89}
+\input{src/psalm089}
+\newpage
+
+\subsubsection{Psalm 90}
+\input{src/psalm090}
+\newpage
+
+\subsubsection{Psalm 91}
+\input{src/psalm091}
+\newpage
+
+\subsubsection{Psalm 92}
+\input{src/psalm092}
+\newpage
+
+\subsubsection{Psalm 93}
+\input{src/psalm093}
+\newpage
+
+\subsubsection{Psalm 94}
+\input{src/psalm094}
+\newpage
+
+\subsubsection{Psalm 95}
+\input{src/psalm095}
+\newpage
+
+\subsubsection{Psalm 96}
+\input{src/psalm096}
+\newpage
+
+\subsubsection{Psalm 97}
+\input{src/psalm097}
+\newpage
+
+\subsubsection{Psalm 98}
+\input{src/psalm098}
+\newpage
+
+\subsubsection{Psalm 99}
+\input{src/psalm099}
+\newpage
+
+\subsubsection{Psalm 100}
+\input{src/psalm100}
+\newpage
+
+\subsubsection{Psalm 101}
+\input{src/psalm101}
+\newpage
+
+\subsubsection{Psalm 102}
+\input{src/psalm102}
+\newpage
+
+\subsubsection{Psalm 103}
+\input{src/psalm103}
+\newpage
+
+\subsubsection{Psalm 104}
+\input{src/psalm104}
+\newpage
+
+\subsubsection{Psalm 105}
+\input{src/psalm105}
+\newpage
+
+\subsubsection{Psalm 106}
+\input{src/psalm106}
+\newpage
+
+\subsubsection{Psalm 107}
+\input{src/psalm107}
+\newpage
+
+\subsubsection{Psalm 108}
+\input{src/psalm108}
+\newpage
+
+\subsubsection{Psalm 109}
+\input{src/psalm109}
+\newpage
+
+\subsubsection{Psalm 110}
+\input{src/psalm110}
+\newpage
+
+\subsubsection{Psalm 111}
+\input{src/psalm111}
+\newpage
+
+\subsubsection{Psalm 112}
+\input{src/psalm112}
+\newpage
+
+\subsubsection{Psalm 113}
+\input{src/psalm113}
+\newpage
+
+\subsubsection{Psalm 114}
+\input{src/psalm114}
+\newpage
+
+\subsubsection{Psalm 115}
+\input{src/psalm115}
+\newpage
+
+\subsubsection{Psalm 116}
+\input{src/psalm116}
+\newpage
+
+\subsubsection{Psalm 117}
+\input{src/psalm117}
+\newpage
+
+\subsubsection{Psalm 118}
+\input{src/psalm118-1}
+\input{src/psalm118-2a}
+\input{src/psalm118-2b}
+\input{src/psalm118-3}
+\newpage
+
+\subsubsection{Psalm 119}
+\input{src/psalm119}
+\newpage
+
+\subsubsection{Psalm 120}
+\input{src/psalm120}
+\newpage
+
+\subsubsection{Psalm 121}
+\input{src/psalm121}
+\newpage
+
+\subsubsection{Psalm 122}
+\input{src/psalm122}
+\newpage
+
+\subsubsection{Psalm 123}
+\input{src/psalm123}
+\newpage
+
+\subsubsection{Psalm 124}
+\input{src/psalm124}
+\newpage
+
+\subsubsection{Psalm 125}
+\input{src/psalm125}
+\newpage
+
+\subsubsection{Psalm 126}
+\input{src/psalm126}
+\newpage
+
+\subsubsection{Psalm 127}
+\input{src/psalm127}
+\newpage
+
+\subsubsection{Psalm 128}
+\input{src/psalm128}
+\newpage
+
+\subsubsection{Psalm 129}
+\input{src/psalm129}
+\newpage
+
+\subsubsection{Psalm 130}
+\input{src/psalm130}
+\newpage
+
+\subsubsection{Psalm 131}
+\input{src/psalm131}
+\newpage
+
+\subsubsection{Psalm 132}
+\input{src/psalm132}
+\newpage
+
+\subsubsection{Psalm 133}
+\input{src/psalm133}
+\newpage
+
+\subsubsection{Psalm 134}
+\input{src/psalm134}
+\newpage
+
+\subsubsection{Psalm 135}
+\input{src/psalm135}
+\newpage
+
+\subsubsection{Psalm 136}
+\input{src/psalm136}
+\newpage
+
+\subsubsection{Psalm 137}
+\input{src/psalm137}
+\newpage
+
+\subsubsection{Psalm 138}
+\input{src/psalm138}
+\newpage
+
+\subsubsection{Psalm 139}
+\input{src/psalm139}
+\newpage
+
+\subsubsection{Psalm 140}
+\input{src/psalm140}
+\newpage
+
+\subsubsection{Psalm 141}
+\input{src/psalm141}
+\newpage
+
+\subsubsection{Psalm 142}
+\input{src/psalm142}
+\newpage
+
+\subsubsection{Psalm 143}
+\input{src/psalm143}
+\newpage
+
+\subsubsection{Psalm 144}
+\input{src/psalm144}
+\newpage
+
+\subsubsection{Psalm 145}
+\input{src/psalm145}
+\newpage
+
+\subsubsection{Psalm 146}
+\input{src/psalm146}
+\newpage
+
+\subsubsection{Psalm 147}
+\input{src/psalm147}
+\newpage
+
+\subsubsection{Psalm 148}
+\input{src/psalm148}
+\newpage
+
+\subsubsection{Psalm 149}
+\input{src/psalm149}
+\newpage
+
+\subsubsection{Psalm 150}
+\input{src/psalm150}
+\newpage
+
+\subsubsection{Psalm 151}
+\input{src/psalm151}
+\newpage
+
+\end{multicols}
+\end{document}
