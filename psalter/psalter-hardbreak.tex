@@ -1,9 +1,10 @@
-\documentclass[12pt]{extarticle}
+\documentclass[10pt]{extarticle}
 
 \usepackage{indentfirst}
 \usepackage{fontspec}
 \usepackage{multicol}
 \usepackage{titlesec}
+\usepackage[none]{hyphenat}
 
 \titleformat{\section}
   {\normalfont\LARGE\bfseries\centering}{\thesection}{1em}{}
@@ -27,13 +28,13 @@
  letterpaper,
  right=1.2in,
  left=1.2in,
- top=.5in,
- bottom=.5in
+ top=1.2in,
+ bottom=1.2in
 ]{geometry}
 
 \pagenumbering{gobble}
 
-\setlength{\columnsep}{0.5in}
+\setlength{\columnsep}{0.8in}
 \widowpenalties 1 10000
 \raggedbottom
 
@@ -547,8 +548,10 @@
 
 \subsubsection{Psalm 118}
 \input{src/psalm118-1}
+\centerline{\textbf{* * *}}
 \input{src/psalm118-2a}
 \input{src/psalm118-2b}
+\centerline{\textbf{* * *}}
 \input{src/psalm118-3}
 \newpage
 
