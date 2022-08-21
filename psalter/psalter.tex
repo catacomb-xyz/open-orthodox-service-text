@@ -1,15 +1,33 @@
-\documentclass[12pt]{book}
+\documentclass[12pt,openany]{book}
 
 \usepackage{indentfirst}
 \usepackage{fontspec}
 \usepackage{titlesec}
-%\usepackage{utfsym}
+
+\titleformat{\chapter}
+  {\normalfont\LARGE\bfseries\centering}{\thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{-40pt}{30pt}
 
 \titleformat{\section}
-  {\normalfont\LARGE\bfseries\centering}{\thesection}{1em}{}
+  {\normalfont\bfseries}{\thesection}{1em}{}
 
 \titleformat{\subsection}
   {\bfseries\centering}{\thesubsection}{1em}{}
+
+\renewcommand\contentsname{Index}
+
+\AtBeginDocument{
+  \addtocontents{toc}{\protect\thispagestyle{empty}}
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyheadoffset[RO,LE]{0.5in}
+\fancyhead[LE,RO]{\textsl{\rightmark}}
+\fancyhead[LO,RE]{\textsl{\leftmark}}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{15pt}
 
 \setmainfont [
   Path = ./../fonts/linux-libertine/,
@@ -24,16 +42,19 @@
 \onehalfspacing
 
 \usepackage[
- letterpaper,
- right=1.9in,
- left=1.9in,
- top=0.75in,
- bottom=1.0in
+  papersize={8.75in,11.25in},
+  layout=letterpaper,
+  layouthoffset=0.125in,
+  layoutvoffset=0.125in,
+  right=1.75in,
+  left=1.75in,
+  top=1.0in,
+  bottom=1.0in
 ]{geometry}
 
-\widowpenalty=600
 \clubpenalty=600
-
+\widowpenalties 1 10000
+\raggedbottom
 \tolerance=1
 \emergencystretch=\maxdimen
 \hyphenpenalty=10000
@@ -49,13 +70,17 @@
   \medskip
   \begin{center}
   \begin{footnotesize}
-  \input{../common/src/glory-both-now.tex}
+  Glory to the Father, and to the Son, and to the Holy Spirit,
+  
+  both now and ever, and unto the ages of ages. Amen.
 
-  \input{../common/src/alleluia.tex}
+  Alleluia, alleluia, alleluia. Glory to Thee, O God. (\textit{Thrice})
 
-  \input{../common/src/lord-have-mercy-3.tex}
+  Lord, have mercy (\textit{Thrice})
 
-  \input{../common/src/glory-both-now.tex}
+  Glory to the Father, and to the Son, and to the Holy Spirit;
+  
+  both now and ever, and unto the ages of ages. Amen.
   \end{footnotesize}
   \end{center}
   \smallbreak
@@ -65,9 +90,11 @@
   \medskip
   \begin{center}
   \begin{footnotesize}
-  \input{../common/src/glory-both-now.tex}
+  Glory to the Father, and to the Son, and to the Holy Spirit,
+  
+  both now and ever, and unto the ages of ages. Amen.
 
-  \input{../common/src/alleluia.tex}
+  Alleluia, alleluia, alleluia. Glory to Thee, O God. (\textit{Thrice})
 
   Our Hope, O Lord, glory be to Thee.
   \end{footnotesize}
@@ -77,767 +104,699 @@
 
 \begin{document}
 
-\section{The First Kathisma}
+\begin{titlepage}
+  \begin{center}
+  \vspace*{2in}
 
-\subsection{First Stasis}
+  \begin{Huge}
+  \textbf{The Psalter}
+  \end{Huge}
 
-\subsubsection{Psalm 1}
+  \vspace{0.25in}
+  \begin{small}
+  According to the Seventy
+  \end{small}
 
+  \vfill
+
+  \end{center}
+\end{titlepage}
+
+\newpage
+
+\thispagestyle{empty}
+\ %empty
+
+\newpage
+
+\thispagestyle{empty}
+\ %empty
+
+\newpage
+
+%\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage % manual new page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{The First Kathisma}
+%\addcontentsline{toc}{chapter}{The First Kathisma}
+\smallskip
+
+\section{Psalm 1}
 \input{src/psalm001}
-
-\subsubsection{Psalm 2}
+\smallskip
+\section{Psalm 2}
 \input{src/psalm002}
-
-\subsubsection{Psalm 3}
+\smallskip
+\section{Psalm 3}
 \input{src/psalm003}
 
 \kathismabreak
+\smallskip
 
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 4}
+\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Psalm 4}
 \input{src/psalm004}
-
-\subsubsection{Psalm 5}
+\smallskip
+\section{Psalm 5}
 \input{src/psalm005}
-
-\subsubsection{Psalm 6}
+\smallskip
+\section{Psalm 6}
 \input{src/psalm006}
 
 \kathismabreak
+\smallskip
 
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 7}
+\section{Psalm 7}
 \input{src/psalm007}
-
-\subsubsection{Psalm 8}
+\smallskip
+\section{Psalm 8}
 \input{src/psalm008}
 
 \kathismaend
 
-\section{The Second Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 9}
+\chapter*{The Second Kathisma}
+\smallskip
+\section{Psalm 9}
 \input{src/psalm009}
-
-\subsubsection{Psalm 10}
+\smallskip
+\section{Psalm 10}
 \input{src/psalm010}
 
 \kathismabreak
+\smallskip
+\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 11}
+\section{Psalm 11}
 \input{src/psalm011}
-
-\subsubsection{Psalm 12}
+\smallskip
+\section{Psalm 12}
 \input{src/psalm012}
-
-\subsubsection{Psalm 13}
+\smallskip
+\section{Psalm 13}
 \input{src/psalm013}
 
 \kathismabreak
-
-\subsubsection{Psalm 14}
+%\smallskip
+\section{Psalm 14}
 \input{src/psalm014}
-
-\subsubsection{Psalm 15}
+\smallskip
+\section{Psalm 15}
 \input{src/psalm015}
-
-\subsubsection{Psalm 16}
+\smallskip
+\section{Psalm 16}
 \input{src/psalm016}
 
 \kathismabreak
 
-\section{The Third Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 17}
+\chapter*{The Third Kathisma}
+\smallskip
+\section{Psalm 17}
 \input{src/psalm017}
 
 \kathismaend
-
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 18}
+\smallskip
+\section{Psalm 18}
 \input{src/psalm018}
+\smallskip
 
-\subsubsection{Psalm 19}
+\section{Psalm 19}
 \input{src/psalm019}
-
-\subsubsection{Psalm 20}
+\smallskip
+\section{Psalm 20}
 \input{src/psalm020}
 
 \kathismabreak
-
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 21}
+\smallskip
+\section{Psalm 21}
 \input{src/psalm021}
-
-\subsubsection{Psalm 22}
+\smallskip
+\section{Psalm 22}
 \input{src/psalm022}
-
-\subsubsection{Psalm 23}
+\smallskip
+\section{Psalm 23}
 \input{src/psalm023}
 
 \kathismabreak
 
-\section{The Fourth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 24}
+\chapter*{The Fourth Kathisma}
+\smallskip
+\section{Psalm 24}
 \input{src/psalm024}
-
-\subsubsection{Psalm 25}
+\smallskip
+\section{Psalm 25}
 \input{src/psalm025}
-
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Psalm 26}
+\smallskip
+\section{Psalm 26}
 \input{src/psalm026}
 
+\kathismabreak
+\smallskip
+
+\section{Psalm 27}
+\input{src/psalm027}
+\medskip
+\section{Psalm 28}
+\input{src/psalm028}
+\medskip
+\section{Psalm 29}
+\input{src/psalm029}
+\smallbreak
+
 \pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismabreak
+\smallskip
 
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 27}
-\input{src/psalm027}
-
-\subsubsection{Psalm 28}
-\input{src/psalm028}
-
-\subsubsection{Psalm 29}
-\input{src/psalm029}
-
-\kathismabreak
-
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 30}
+\section{Psalm 30}
 \input{src/psalm030}
-
-\subsubsection{Psalm 31}
+\smallskip
+\section{Psalm 31}
 \input{src/psalm031}
 
 \kathismaend
 
-\section{The Fifth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 32}
+\chapter*{The Fifth Kathisma}
+\smallskip
+\section{Psalm 32}
 \input{src/psalm032}
-
-\subsubsection{Psalm 33}
+\smallskip
+\section{Psalm 33}
 \input{src/psalm033}
 
 \kathismabreak
+\smallskip
 
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 34}
+\section{Psalm 34}
 \input{src/psalm034}
-
-\subsubsection{Psalm 35}
+\smallskip
+\section{Psalm 35}
 \input{src/psalm035}
 
 \pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismabreak
+\smallskip
 
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 36}
+\section{Psalm 36}
 \input{src/psalm036}
 
 \kathismaend
 
-\section{The Sixth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 37}
+\chapter*{The Sixth Kathisma}
+\smallskip
+\section{Psalm 37}
 \input{src/psalm037}
-
-\subsubsection{Psalm 38}
+\smallskip
+\section{Psalm 38}
 \input{src/psalm038}
-
-\subsubsection{Psalm 39}
+\smallskip
+\section{Psalm 39}
 \input{src/psalm039}
 
 \kathismabreak
-
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 40}
+%\smallskip
+\section{Psalm 40}
 \input{src/psalm040}
-
-\subsubsection{Psalm 41}
+\smallskip
+\section{Psalm 41}
 \input{src/psalm041}
-
-\subsubsection{Psalm 42}
+\smallskip
+\section{Psalm 42}
 \input{src/psalm042}
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismabreak
-
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 43}
+\smallskip
+\section{Psalm 43}
 \input{src/psalm043}
-
-\subsubsection{Psalm 44}
+\smallskip
+\section{Psalm 44}
 \input{src/psalm044}
-
-\subsubsection{Psalm 45}
+\smallskip
+\section{Psalm 45}
 \input{src/psalm045}
 
 \kathismaend
 
-\section{The Seventh Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 46}
+\chapter*{The Seventh Kathisma}
+\smallskip
+\section{Psalm 46}
 \input{src/psalm046}
-
-\subsubsection{Psalm 47}
+\smallskip
+\section{Psalm 47}
 \input{src/psalm047}
-
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Psalm 48}
+\smallskip
+\section{Psalm 48}
 \input{src/psalm048}
 
 \kathismabreak
-
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 49}
+\bigskip
+\section{Psalm 49}
 \input{src/psalm049}
-
-\subsubsection{Psalm 50}
+\smallskip
+\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Psalm 50}
 \input{src/psalm050}
 
 \kathismabreak
-
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 51}
+%\smallskip
+\section{Psalm 51}
 \input{src/psalm051}
-
-\subsubsection{Psalm 52}
+%\smallskip
+\section{Psalm 52}
 \input{src/psalm052}
-
-\subsubsection{Psalm 53}
+%\smallskip
+\section{Psalm 53}
 \input{src/psalm053}
-
-\subsubsection{Psalm 54}
+%\smallskip
+\section{Psalm 54}
 \input{src/psalm054}
 
 \kathismaend
 
-\section{The Eighth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 55}
+\chapter*{The Eighth Kathisma}
+\smallskip
+\section{Psalm 55}
 \input{src/psalm055}
-
-\subsubsection{Psalm 56}
+\smallskip
+\section{Psalm 56}
 \input{src/psalm056}
-
-\subsubsection{Psalm 57}
+\smallskip
+\section{Psalm 57}
 \input{src/psalm057}
 
 \kathismabreak
-
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 58}
+\smallskip
+\section{Psalm 58}
 \input{src/psalm058}
-
-\subsubsection{Psalm 59}
+\smallskip
+\section{Psalm 59}
 \input{src/psalm059}
-
-\subsubsection{Psalm 60}
+\smallskip
+\section{Psalm 60}
 \input{src/psalm060}
 
 \kathismabreak
-
+\smallskip
 \pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 61}
+\section{Psalm 61}
 \input{src/psalm061}
-
-\subsubsection{Psalm 62}
+\smallskip
+\section{Psalm 62}
 \input{src/psalm062}
-
-\subsubsection{Psalm 63}
+\smallskip
+\section{Psalm 63}
 \input{src/psalm063}
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismaend
 
-\section{The Ninth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 64}
+\chapter*{The Ninth Kathisma}
+\smallskip
+\section{Psalm 64}
 \input{src/psalm064}
-
-\subsubsection{Psalm 65}
+\smallskip
+\section{Psalm 65}
 \input{src/psalm065}
-
-\subsubsection{Psalm 66}
+\smallskip
+\section{Psalm 66}
 \input{src/psalm066}
 
 \kathismabreak
-
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 67}
+\smallskip
+\section{Psalm 67}
 \input{src/psalm067}
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismabreak
-
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 68}
+\smallskip
+\section{Psalm 68}
 \input{src/psalm068}
-
-\subsubsection{Psalm 69}
+\smallskip
+\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Psalm 69}
 \input{src/psalm069}
 
 \kathismaend
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The Tenth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 70}
+\chapter*{The Tenth Kathisma}
+\smallskip
+\section{Psalm 70}
 \input{src/psalm070}
-
-\subsubsection{Psalm 71}
+\smallskip
+\section{Psalm 71}
 \input{src/psalm071}
 
 \kathismabreak
+\smallskip
 
 \pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 72}
+\section{Psalm 72}
 \input{src/psalm072}
-
-\subsubsection{Psalm 73}
+\smallskip
+\section{Psalm 73}
 \input{src/psalm073}
 
 \kathismabreak
+\smallskip
 
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 74}
+\section{Psalm 74}
 \input{src/psalm074}
-
-\subsubsection{Psalm 75}
+\smallskip
+\section{Psalm 75}
 \input{src/psalm075}
-
-\subsubsection{Psalm 76}
+\smallskip
+\section{Psalm 76}
 \input{src/psalm076}
 
 \kathismaend
 
-\section{The Eleventh Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 77}
+\chapter*{The Eleventh Kathisma}
+\smallskip
+\section{Psalm 77}
 \input{src/psalm077}
 
+\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismabreak
+\smallskip
 
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 78}
+\section{Psalm 78}
 \input{src/psalm078}
-
-\subsubsection{Psalm 79}
+\smallskip
+\section{Psalm 79}
 \input{src/psalm079}
-
-\subsubsection{Psalm 80}
+\bigskip
+\section{Psalm 80}
 \input{src/psalm080}
 
-\kathismabreak
-
 \pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Third Stasis}
+\kathismabreak
+\smallskip
 
-\subsubsection{Psalm 81}
+\section{Psalm 81}
 \input{src/psalm081}
-
-\subsubsection{Psalm 82}
+\smallskip
+\section{Psalm 82}
 \input{src/psalm082}
-
-\subsubsection{Psalm 83}
+\smallskip
+\section{Psalm 83}
 \input{src/psalm083}
-
-\subsubsection{Psalm 84}
+\smallskip
+\section{Psalm 84}
 \input{src/psalm084}
 
 \pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismaend
 
-\section{The Twelfth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 85}
+\chapter*{The Twelfth Kathisma}
+\smallskip
+\section{Psalm 85}
 \input{src/psalm085}
-
-\subsubsection{Psalm 86}
+\smallskip
+\section{Psalm 86}
 \input{src/psalm086}
-
-\subsubsection{Psalm 87}
+\smallskip
+\section{Psalm 87}
 \input{src/psalm087}
 
 \kathismabreak
-
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 88}
+\smallskip
+\section{Psalm 88}
 \input{src/psalm088}
 
 \kathismabreak
-
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 89}
+\smallskip
+\section{Psalm 89}
 \input{src/psalm089}
-
-\subsubsection{Psalm 90}
+\smallskip
+\section{Psalm 90}
 \input{src/psalm090}
 
 \kathismaend
 
-\section{The Thirteenth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 91}
+\chapter*{The Thirteenth Kathisma}
+\smallskip
+\section{Psalm 91}
 \input{src/psalm091}
-
-\subsubsection{Psalm 92}
+\smallskip
+\section{Psalm 92}
 \input{src/psalm092}
-
-\subsubsection{Psalm 93}
+\smallskip
+\section{Psalm 93}
 \input{src/psalm093}
 
 \kathismabreak
-
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 94}
+\smallskip
+\section{Psalm 94}
 \input{src/psalm094}
-
-\subsubsection{Psalm 95}
+\smallskip
+\section{Psalm 95}
 \input{src/psalm095}
-
-\subsubsection{Psalm 96}
+\smallskip
+\section{Psalm 96}
 \input{src/psalm096}
 
 \kathismabreak
-
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 97}
+\smallskip
+\section{Psalm 97}
 \input{src/psalm097}
-
-\subsubsection{Psalm 98}
+\smallskip
+\section{Psalm 98}
 \input{src/psalm098}
-
-\subsubsection{Psalm 99}
+\smallskip
+\section{Psalm 99}
 \input{src/psalm099}
-
-\subsubsection{Psalm 100}
+\smallskip
+\section{Psalm 100}
 \input{src/psalm100}
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismaend
 
-\section{The Fourteenth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 101}
+\chapter*{The Fourteenth Kathisma}
+\smallskip
+\section{Psalm 101}
 \input{src/psalm101}
-
-\subsubsection{Psalm 102}
+\smallskip
+\section{Psalm 102}
 \input{src/psalm102}
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismabreak
-
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 103}
+\smallskip
+\section{Psalm 103}
 \input{src/psalm103}
 
 \kathismabreak
-
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 104}
+\smallskip
+\section{Psalm 104}
 \input{src/psalm104}
 
 \kathismaend
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The Fifteenth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 105}
+\chapter*{The Fifteenth Kathisma}
+\smallskip
+\section{Psalm 105}
 \input{src/psalm105}
 
 \kathismabreak
+\smallskip
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 106}
+\section{Psalm 106}
 \input{src/psalm106}
 
 \kathismabreak
+%\smallskip
 
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 107}
+\section{Psalm 107}
 \input{src/psalm107}
-
-\subsubsection{Psalm 108}
+\smallskip
+\section{Psalm 108}
 \input{src/psalm108}
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismaend
 
-\section{The Sixteenth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 109}
+\chapter*{The Sixteenth Kathisma}
+\smallskip
+\section{Psalm 109}
 \input{src/psalm109}
-
-\subsubsection{Psalm 110}
+\smallskip
+\section{Psalm 110}
 \input{src/psalm110}
-
-\subsubsection{Psalm 111}
+\smallskip
+\section{Psalm 111}
 \input{src/psalm111}
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismabreak
-
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 112}
+\smallskip
+\section{Psalm 112}
 \input{src/psalm112}
-
-\subsubsection{Psalm 113}
+\smallskip
+\section{Psalm 113}
 \input{src/psalm113}
-
-\subsubsection{Psalm 114}
+\smallskip
+\section{Psalm 114}
 \input{src/psalm114}
 
 \kathismabreak
-
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 115}
+\smallskip
+\section{Psalm 115}
 \input{src/psalm115}
-
-\subsubsection{Psalm 116}
+\smallskip
+\section{Psalm 116}
 \input{src/psalm116}
-
-\subsubsection{Psalm 117}
+\smallskip
+\section{Psalm 117}
 \input{src/psalm117}
 
 \kathismaend
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The Seventeenth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 118}
+\chapter*{The Seventeenth Kathisma}
+\smallskip
+\section{Psalm 118}
 \input{src/psalm118-1}
 
 \kathismabreak
-
-\subsection{Second Stasis}
 
 \input{src/psalm118-2a}
 \input{src/psalm118-2b}
 
 \kathismabreak
 
-\subsection{Third Stasis}
-
 \input{src/psalm118-3}
 
 \kathismaend
 
-\section{The Eighteenth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 119}
+\chapter*{The Eighteenth Kathisma}
+\smallskip
+\section{Psalm 119}
 \input{src/psalm119}
-
-\subsubsection{Psalm 120}
+\smallskip
+\section{Psalm 120}
 \input{src/psalm120}
-
-\subsubsection{Psalm 121}
+\smallskip
+\section{Psalm 121}
 \input{src/psalm121}
-
-\subsubsection{Psalm 122}
+\smallskip
+\section{Psalm 122}
 \input{src/psalm122}
-
-\subsubsection{Psalm 123}
+\smallskip
+\section{Psalm 123}
 \input{src/psalm123}
 
+\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismabreak
+\smallskip
 
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 124}
+\section{Psalm 124}
 \input{src/psalm124}
-
-\subsubsection{Psalm 125}
+\smallskip
+\section{Psalm 125}
 \input{src/psalm125}
-
-\subsubsection{Psalm 126}
+\smallskip
+\section{Psalm 126}
 \input{src/psalm126}
-
-\subsubsection{Psalm 127}
+\smallskip
+\section{Psalm 127}
 \input{src/psalm127}
-
-\subsubsection{Psalm 128}
+\smallskip
+\section{Psalm 128}
 \input{src/psalm128}
 
 \kathismabreak
-
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 129}
+\smallskip
+\section{Psalm 129}
 \input{src/psalm129}
-
-\subsubsection{Psalm 130}
+\smallskip
+\section{Psalm 130}
 \input{src/psalm130}
-
-\subsubsection{Psalm 131}
+\smallskip
+\section{Psalm 131}
 \input{src/psalm131}
-
-\subsubsection{Psalm 132}
+\smallskip
+\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Psalm 132}
 \input{src/psalm132}
-
-\subsubsection{Psalm 133}
+\smallskip
+\section{Psalm 133}
 \input{src/psalm133}
 
 \kathismaend
 
-\section{The Nineteenth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 134}
+\chapter*{The Nineteenth Kathisma}
+\smallskip
+\section{Psalm 134}
 \input{src/psalm134}
-
-\subsubsection{Psalm 135}
+\smallskip
+\section{Psalm 135}
 \input{src/psalm135}
-
-\subsubsection{Psalm 136}
+\smallskip
+\section{Psalm 136}
 \input{src/psalm136}
 
 \kathismabreak
-
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 137}
+\smallskip
+\section{Psalm 137}
 \input{src/psalm137}
-
-\subsubsection{Psalm 138}
+\smallskip
+\section{Psalm 138}
 \input{src/psalm138}
-
-\newpage % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Psalm 139}
+\smallskip
+\section{Psalm 139}
 \input{src/psalm139}
 
 \kathismabreak
-
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 140}
+\smallskip
+\section{Psalm 140}
 \input{src/psalm140}
-
-\subsubsection{Psalm 141}
+\smallskip
+\section{Psalm 141}
 \input{src/psalm141}
-
-\subsubsection{Psalm 142}
+\smallskip
+\section{Psalm 142}
 \input{src/psalm142}
 
-\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \kathismaend
 
-\section{The Twentieth Kathisma}
-
-\subsection{First Stasis}
-
-\subsubsection{Psalm 143}
+\chapter*{The Twentieth Kathisma}
+\smallskip
+\section{Psalm 143}
 \input{src/psalm143}
-
-\subsubsection{Psalm 144}
+\smallskip
+\section{Psalm 144}
 \input{src/psalm144}
 
 \kathismabreak
-
-\subsection{Second Stasis}
-
-\subsubsection{Psalm 145}
+\bigskip
+\section{Psalm 145}
 \input{src/psalm145}
-
-\subsubsection{Psalm 146}
+\smallskip
+\pagebreak % manual break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Psalm 146}
 \input{src/psalm146}
-
-\subsubsection{Psalm 147}
+\smallskip
+\section{Psalm 147}
 \input{src/psalm147}
 
 \kathismabreak
-
-\subsection{Third Stasis}
-
-\subsubsection{Psalm 148}
+\smallskip
+\section{Psalm 148}
 \input{src/psalm148}
-
-\subsubsection{Psalm 149}
+\smallskip
+\section{Psalm 149}
 \input{src/psalm149}
-
-\subsubsection{Psalm 150}
+\smallskip
+\section{Psalm 150}
 \input{src/psalm150}
 
 \kathismaend
-
-\subsubsection{Psalm 151}
+\smallskip
+\section{Psalm 151}
 \input{src/psalm151}
+
+\newpage
+
+\thispagestyle{empty}
+\ %empty
+
+\newpage
+
+\newpage
+\pagestyle{plain}
+\pagenumbering{gobble}
+\tableofcontents
 
 \end{document}

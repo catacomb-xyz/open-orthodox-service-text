@@ -1,8 +1,8 @@
 all:
-	xelatex psalter.tex
+	xelatex -halt-on-error psalter.tex
 
 hardbreak:
-	xelatex psalter-hardbreak.tex
+	xelatex -halt-on-error psalter-hardbreak.tex
 
 clean:
 	rm -rf psalter.aux psalter.log psalter.pdf
