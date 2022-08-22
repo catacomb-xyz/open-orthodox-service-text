@@ -1,4 +1,6 @@
 all:
+	git show -s --format=%as > date.tex
+	git rev-parse --short HEAD > hash.tex
 	xelatex -halt-on-error psalter.tex
 
 hardbreak:
