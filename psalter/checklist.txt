@@ -1,0 +1,14 @@
+1-87 good
+check 88
+89-92 good
+check 93,94,95
+96-97 good
+check 98,99,100,101
+102-103 good
+check 104,105,106,107,108
+109-111 good
+check 112,113
+114-116 good
+check 117
+
+pick up confirmation from psalm 118
