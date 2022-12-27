@@ -1,1 +1,3 @@
-118
+proof read: 118
+second pass: 18
+verses: 11
