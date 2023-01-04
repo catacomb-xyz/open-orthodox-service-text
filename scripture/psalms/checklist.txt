@@ -1,3 +1,6 @@
 proof read: 118:110
 second pass: 48
 verses: 11-22
+
+
+second pass skip: 100
