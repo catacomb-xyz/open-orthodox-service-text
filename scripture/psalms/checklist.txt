@@ -1,10 +1,10 @@
 proof read: 118:110
 verses: 11-22
 
-psalm,second pass
-1,x
-2,x
-3,x
+psalm,second pass,red book
+1,x,R
+2,x,R
+3,x,R
 4,x
 5,x
 6,x
