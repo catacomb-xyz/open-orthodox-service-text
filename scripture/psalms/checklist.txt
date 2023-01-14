@@ -1,6 +1,9 @@
 proof read: 118:110
 verses: 11-22
 
+change ":" back to ","
+undo reverential capitalization
+
 psalm,second pass,red book
 1,x,R
 2,x,R
@@ -91,9 +94,9 @@ psalm,second pass,red book
 87,x
 88,
 89,x
-90,
-91,
-92,x
+90,x,R
+91,x,R
+92,x,R
 93,
 94,x
 95,x
@@ -121,17 +124,17 @@ psalm,second pass,red book
 117,
 118,
 119,x,R
-120,
+120,x,R
 121,x,R
 122,x,R
 123,x,R
 124,x,R
 125,x,R
-126,
-127,
-128,
+126,x,R
+127,x,R
+128,x,R
 129,
-130,
+130,x,R
 131,
 132,
 133,
