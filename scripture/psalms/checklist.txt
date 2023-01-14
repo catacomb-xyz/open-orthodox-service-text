@@ -120,9 +120,9 @@ psalm,second pass,red book
 116,
 117,
 118,
-119,
+119,x,R
 120,
-121,
+121,x,R
 122,x,R
 123,x,R
 124,x,R
