@@ -36,7 +36,7 @@ psalm,second pass,red book
 29,x
 30,x
 31,x
-32,x
+32,x,R
 33,x
 34,x
 35,x
