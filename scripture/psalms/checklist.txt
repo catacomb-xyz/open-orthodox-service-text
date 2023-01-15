@@ -42,7 +42,7 @@ psalm,second pass,red book
 35,x
 36,x
 37,x
-38,x
+38,x,R
 39,x
 40,x
 41,x
