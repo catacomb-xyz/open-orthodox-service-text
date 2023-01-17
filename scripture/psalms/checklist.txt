@@ -3,6 +3,7 @@ verses: 11-22
 
 change ":" back to ","
 undo reverential capitalization
+look at "give thanks" vs "confess"
 
 psalm,second pass,red book
 1,x,R
@@ -46,7 +47,7 @@ psalm,second pass,red book
 39,x
 40,x
 41,x
-42,x
+42,x,R
 43,x
 44,x
 45,x
@@ -68,8 +69,8 @@ psalm,second pass,red book
 61,x
 62,x
 63,x
-64,
-65,
+64,x,R
+65,x,R
 66,x
 67,
 68,
@@ -111,8 +112,8 @@ psalm,second pass,red book
 104,
 105,
 106,
-107,
-108,
+107,x,R
+108,x,R
 109,x
 110,
 111,
@@ -140,7 +141,7 @@ psalm,second pass,red book
 133,x,R
 134,
 135,
-136,
+136,x,R
 137,
 138,
 139,
