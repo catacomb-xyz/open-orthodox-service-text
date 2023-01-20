@@ -12,7 +12,7 @@ psalm,second pass,red book
 4,x,R
 5,x
 6,x,R
-7,x
+7,x,R
 8,x
 9,x
 10,x
