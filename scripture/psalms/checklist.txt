@@ -5,6 +5,7 @@ change ":" back to ","?
 undo reverential capitalization
 look at "give thanks" vs "confess"
 "reign" homophone?
+for ever -> unto the ages of ages
 
 psalm,second pass,red book
 1,x,R
@@ -150,7 +151,7 @@ psalm,second pass,red book
 141,x,R
 142,
 143,
-144,
+144,x,R
 145,x,R
 146,x,R
 147,x,R
