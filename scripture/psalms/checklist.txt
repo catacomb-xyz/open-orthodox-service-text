@@ -149,8 +149,8 @@ psalm,second pass,red book
 139,
 140,
 141,x,R
-142,
-143,
+142,x,R
+143,x,R
 144,x,R
 145,x,R
 146,x,R
