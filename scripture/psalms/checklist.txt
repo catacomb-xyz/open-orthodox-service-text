@@ -136,7 +136,7 @@ psalm,second pass,red book
 126,x,R
 127,x,R
 128,x,R
-129,
+129,x,R
 130,x,R
 131,
 132,x,R
@@ -146,8 +146,8 @@ psalm,second pass,red book
 136,x,R
 137,x,R
 138,x,R
-139,
-140,
+139,x,R
+140,x,R
 141,x,R
 142,x,R
 143,x,R
