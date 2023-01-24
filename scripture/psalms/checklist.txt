@@ -5,7 +5,8 @@ change ":" back to ","?
 undo reverential capitalization
 look at "give thanks" vs "confess"
 "reign" homophone?
-for ever -> unto the ages of ages
+for ever, eternity -> unto the ages of ages
+anoited -> christ
 
 psalm,second pass,red book
 1,x,R
@@ -116,8 +117,8 @@ psalm,second pass,red book
 106,
 107,x,R
 108,x,R
-109,x
-110,
+109,x,R
+110,x,R
 111,
 112,
 113,
@@ -138,7 +139,7 @@ psalm,second pass,red book
 128,x,R
 129,x,R
 130,x,R
-131,
+131,x,R
 132,x,R
 133,x,R
 134,x,R
