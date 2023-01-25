@@ -7,6 +7,7 @@ look at "give thanks" vs "confess"
 "reign" homophone?
 for ever, eternity -> unto the ages of ages
 anoited -> christ
+recompense -> repay
 
 psalm,second pass,red book
 1,x,R
@@ -25,7 +26,7 @@ psalm,second pass,red book
 14,x,R
 15,x,R
 16,x
-17,x
+17,x,R
 18,x
 19,x
 20,x
