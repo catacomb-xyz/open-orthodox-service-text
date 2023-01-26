@@ -8,6 +8,7 @@ look at "give thanks" vs "confess"
 for ever, eternity -> unto the ages of ages
 anoited -> christ
 recompense -> repay
+forest -> wood
 
 psalm,second pass,red book
 1,x,R
@@ -90,7 +91,7 @@ psalm,second pass,red book
 78,x
 79,x
 80,x
-81,x
+81,x,R
 82,x
 83,x
 84,x
@@ -98,15 +99,15 @@ psalm,second pass,red book
 86,x
 87,x
 88,
-89,x
+89,x,R
 90,x,R
 91,x,R
 92,x,R
 93,
 94,x
-95,x
+95,x,R
 96,x
-97,x
+97,x,R
 98,
 99,x
 100,x
