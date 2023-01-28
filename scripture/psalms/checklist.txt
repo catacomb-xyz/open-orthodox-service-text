@@ -5,10 +5,12 @@ change ":" back to ","?
 undo reverential capitalization
 look at "give thanks" vs "confess"
 "reign" homophone?
-for ever, eternity -> unto the ages of ages
+for ever, eternity -> unto the age of age
 anoited -> christ
 recompense -> repay
 forest -> wood
+
+*** IMPORTANT: change "unto the ages" to "unto the age"
 
 psalm,second pass,red book
 1,x,R
