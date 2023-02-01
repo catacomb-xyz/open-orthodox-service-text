@@ -6,9 +6,10 @@ undo reverential capitalization
 look at "give thanks" vs "confess"
 "reign" homophone?
 for ever, eternity -> unto the age of age
-anoited -> christ
+anointed -> christ
 recompense -> repay
 forest -> wood
+those that??
 
 *** IMPORTANT: change "unto the ages" to "unto the age"
 
@@ -38,7 +39,7 @@ psalm,second pass,red book
 23,x
 24,x
 25,x
-26,x
+26,x,R
 27,x
 28,x
 29,x
