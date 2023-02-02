@@ -10,6 +10,7 @@ anointed -> christ
 recompense -> repay
 forest -> wood
 those that??
+my tongue meditate?
 
 *** IMPORTANT: change "unto the ages" to "unto the age"
 
@@ -83,7 +84,7 @@ psalm,second pass,red book
 67,
 68,
 69,x
-70,
+70,x,R
 71,
 72,x,R
 73,
