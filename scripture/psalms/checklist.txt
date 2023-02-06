@@ -81,7 +81,7 @@ psalm,second pass,red book
 64,x,R
 65,x,R
 66,x
-67,
+67,x,R
 68,
 69,x
 70,x,R
