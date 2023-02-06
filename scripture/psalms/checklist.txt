@@ -12,6 +12,9 @@ forest -> wood
 those that??
 my tongue meditate?
 
+kjv
+check thy/thine
+
 *** IMPORTANT: change "unto the ages" to "unto the age"
 
 psalm,second pass,red book
@@ -80,10 +83,10 @@ psalm,second pass,red book
 63,x
 64,x,R
 65,x,R
-66,x
+66,x,R
 67,x,R
-68,
-69,x
+68,x,R
+69,x,R
 70,x,R
 71,
 72,x,R
