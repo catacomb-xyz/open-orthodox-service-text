@@ -39,8 +39,8 @@ psalm,second pass,red book
 19,x
 20,x
 21,x
-22,x
-23,x
+22,x,R
+23,x,R
 24,x
 25,x
 26,x,R
@@ -69,7 +69,7 @@ psalm,second pass,red book
 49,x
 50,x,R
 51,x
-52,x
+52,x,R
 53,x,R
 54,x,R
 55,x
