@@ -11,6 +11,7 @@ recompense -> repay
 forest -> wood
 those that??
 my tongue meditate?
+rivers -> floods?
 
 kjv
 check thy/thine
@@ -111,11 +112,11 @@ psalm,second pass,red book
 91,x,R
 92,x,R
 93,x,R
-94,x
+94,x,R
 95,x,R
 96,x
 97,x,R
-98,
+98,x,R
 99,x
 100,x
 101,x
