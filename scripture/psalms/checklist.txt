@@ -12,6 +12,7 @@ forest -> wood
 those that??
 my tongue meditate?
 rivers -> floods?
+render vows -> pay vows
 
 kjv
 check thy/thine
@@ -73,12 +74,12 @@ psalm,second pass,red book
 52,x,R
 53,x,R
 54,x,R
-55,x
-56,x
+55,x,R
+56,x,R
 57,x,R
-58,x
-59,x
-60,x
+58,x,R
+59,x,R
+60,x,R
 61,x
 62,x
 63,x
