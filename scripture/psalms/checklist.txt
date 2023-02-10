@@ -167,4 +167,4 @@ psalm,second pass,red book
 148,x,R
 149,x,R
 150,x,R
-151,x
+151,x,R
