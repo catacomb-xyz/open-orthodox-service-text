@@ -14,9 +14,6 @@ my tongue meditate?
 rivers -> floods?
 render vows -> pay vows
 
-kjv
-check thy/thine
-
 *** IMPORTANT: change "unto the ages" to "unto the age"
 
 psalm,second pass,red book
@@ -68,7 +65,7 @@ psalm,second pass,red book
 46,x
 47,x
 48,x
-49,x
+49,x,R
 50,x,R
 51,x,R
 52,x,R
