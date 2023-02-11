@@ -98,7 +98,7 @@ psalm,second pass,red book
 79,x
 80,x
 81,x,R
-82,x
+82,x,R
 83,x
 84,x
 85,x
