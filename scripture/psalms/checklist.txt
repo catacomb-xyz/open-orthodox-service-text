@@ -25,10 +25,10 @@ psalm,second pass,red book
 6,x,R
 7,x,R
 8,x,R
-9,x
+9,x,R
 10,x,R
 11,x,R
-12,x
+12,x,R
 13,x
 14,x,R
 15,x,R
