@@ -59,7 +59,7 @@ psalm,second pass,red book
 42,x,R
 43,x
 44,x
-45,x
+45,x,R
 46,x
 47,x
 48,x
