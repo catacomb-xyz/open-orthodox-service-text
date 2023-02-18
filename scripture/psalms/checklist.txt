@@ -45,7 +45,7 @@ psalm,second pass,red book
 28,x,R
 29,x,R
 30,x
-31,x
+31,x,R
 32,x,R
 33,x
 34,x
