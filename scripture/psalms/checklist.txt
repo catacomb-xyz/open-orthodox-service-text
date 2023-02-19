@@ -10,8 +10,9 @@ forest -> wood (check LXX)
 those that??
 my tongue meditate?
 rivers -> floods?
-ekklçsia -> church
 wosrhip at the footstool vs worship the footstool
+countenance -> face
+use goodly
 
 *** IMPORTANT: change "unto the ages" to "unto the age"
 
@@ -126,7 +127,7 @@ psalm,second pass,red book
 108,x,R
 109,x,R
 110,x,R
-111,
+111,x,R
 112,
 113,
 114,
