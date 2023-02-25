@@ -15,8 +15,8 @@ countenance -> face
 use goodly
 earth, ground https://www.blueletterbible.org/lexicon/g1475/kjv/tr/0-1/
 make known https://www.blueletterbible.org/lexicon/g1804/lxx/lxx/0-1/
-*** IMPORTANT: change "unto the ages" to "unto the age"
-
+belly https://www.blueletterbible.org/lexicon/g1064/lxx/lxx/0-1/
+face https://www.blueletterbible.org/lexicon/g4383/kjv/tr/0-1/
 psalm,second pass,red book
 1,x,R
 2,x,R
