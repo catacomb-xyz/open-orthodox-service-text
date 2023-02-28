@@ -14,3 +14,5 @@ g3051 oracles -> words https://www.blueletterbible.org/lexicon/g3051/kjv/tr/0-1/
 g1345 use statutes https://www.blueletterbible.org/lexicon/g1345/lxx/lxx/0-1/
 
 g3628 use compassions https://www.blueletterbible.org/lexicon/g3628/kjv/tr/0-1/
+
+G4970 exceeding -> greatly, well, mightily, utmost, utterly
