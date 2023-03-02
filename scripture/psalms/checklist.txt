@@ -19,7 +19,8 @@ compassions https://www.blueletterbible.org/lexicon/g3628/kjv/tr/0-1/
 make https://www.blueletterbible.org/lexicon/g4160/kjv/tr/0-1/
 endure -> abide https://www.blueletterbible.org/lexicon/g1265/kjv/tr/0-1/
 
-replace meditate
+prepared -> make ready
+depart -> turn aside, turn away
 
 psalm,second pass,red book
 1,x,R

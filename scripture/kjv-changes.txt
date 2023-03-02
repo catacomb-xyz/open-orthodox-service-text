@@ -1,5 +1,6 @@
 strong hold -> stronghold
 pangs -> throes
+alway -> always
 check thy/thine
 exalt -> lifted up
 g1522 hear -> hearken
@@ -7,7 +8,9 @@ g1563 thither -> therein
 
 Mark 1:36 And Simon and they that were with him pursued him.
 
-Act 10:42 And he commanded us to preach unto the people, and to testify that it is he which was ordained of God to be the Judge of living G2198 and dead.
+Acts 10:42 And he commanded us to preach unto the people, and to testify that it is he which was ordained of God to be the Judge of living G2198 and dead.
+
+Acts 2:25 For David speaketh concerning him, I foresaw the Lord ever before my face, for he is on my right hand, that I should not be moved:
 
 g3051 oracles -> words https://www.blueletterbible.org/lexicon/g3051/kjv/tr/0-1/ 
 
@@ -16,3 +19,7 @@ g1345 use statutes https://www.blueletterbible.org/lexicon/g1345/lxx/lxx/0-1/
 g3628 use compassions https://www.blueletterbible.org/lexicon/g3628/kjv/tr/0-1/
 
 G4970 exceeding -> greatly, well, mightily, utmost, utterly
+
+G2967 restrain -> hold back
+
+G1578 depart -> turn away, turn aside
