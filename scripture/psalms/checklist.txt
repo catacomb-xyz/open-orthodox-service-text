@@ -21,6 +21,11 @@ endure -> abide https://www.blueletterbible.org/lexicon/g1265/kjv/tr/0-1/
 
 prepared -> make ready
 depart -> turn aside, turn away
+ponder -> think long after
+to meditate -> put to mind
+my meditation -> mindful doing, mindfulness
+
+Historically, prescriptive grammar stated that, when expressing pure futurity (without any additional meaning such as desire or command), shall was to be used when the subject was in the first person, and will in other cases (e.g., "On Sunday, we shall go to church, and the preacher will read the Bible.") 
 
 psalm,second pass,red book
 1,x,R
