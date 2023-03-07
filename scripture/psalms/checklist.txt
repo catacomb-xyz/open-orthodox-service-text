@@ -145,7 +145,7 @@ psalm,second pass,red book
 115,
 116,
 117,
-118,
+118,x,R
 119,x,R
 120,x,R
 121,x,R
