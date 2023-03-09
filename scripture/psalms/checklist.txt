@@ -3,13 +3,10 @@ verses: 11-22
 
 change ":" back to ","?
 look at "give thanks" vs "confess"
-recompense -> repay
 forest -> wood (check LXX)
 those that??
-my tongue meditate?
 rivers -> floods?
 worship at the footstool vs worship the footstool
-countenance -> face
 use goodly
 earth, ground https://www.blueletterbible.org/lexicon/g1475/kjv/tr/0-1/
 make known https://www.blueletterbible.org/lexicon/g1804/lxx/lxx/0-1/
@@ -19,7 +16,10 @@ compassions https://www.blueletterbible.org/lexicon/g3628/kjv/tr/0-1/
 make https://www.blueletterbible.org/lexicon/g4160/kjv/tr/0-1/
 endure -> abide https://www.blueletterbible.org/lexicon/g1265/kjv/tr/0-1/
 
+travail -> ?
+request -> ?
 iniquity -> lawlessness
+countenance -> face
 
 Historically, prescriptive grammar stated that, when expressing pure futurity (without any additional meaning such as desire or command), shall was to be used when the subject was in the first person, and will in other cases (e.g., "On Sunday, we shall go to church, and the preacher will read the Bible.") 
 
@@ -58,7 +58,7 @@ psalm,second pass,red book
 32,x,R
 33,x
 34,x
-35,x
+35,x,R
 36,x
 37,x
 38,x,R
