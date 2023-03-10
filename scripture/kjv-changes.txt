@@ -24,4 +24,4 @@ G4970 exceeding -> greatly, well, mightily, utmost, utterly
 
 G2967 restrain -> hold back
 
-G1578 depart -> turn away, turn aside
+G936 reign -> be king, kingship, ruleth (avoids homophone)
