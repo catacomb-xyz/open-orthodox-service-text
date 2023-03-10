@@ -60,7 +60,7 @@ psalm,second pass,red book
 34,x
 35,x,R
 36,x
-37,x
+37,x,R
 38,x,R
 39,x
 40,x
@@ -69,8 +69,8 @@ psalm,second pass,red book
 43,x
 44,x
 45,x,R
-46,x
-47,x
+46,x,R
+47,x,R
 48,x
 49,x,R
 50,x,R
