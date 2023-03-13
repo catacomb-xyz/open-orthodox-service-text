@@ -22,6 +22,7 @@ iniquity -> lawlessness
 countenance -> face
 
 Historically, prescriptive grammar stated that, when expressing pure futurity (without any additional meaning such as desire or command), shall was to be used when the subject was in the first person, and will in other cases (e.g., "On Sunday, we shall go to church, and the preacher will read the Bible.") 
+Use choices of OCA Canada psalter
 
 psalm,second pass,red book
 1,x,R
@@ -101,7 +102,7 @@ psalm,second pass,red book
 75,x
 76,x
 77,
-78,x
+78,x,R
 79,x
 80,x,R
 81,x,R
