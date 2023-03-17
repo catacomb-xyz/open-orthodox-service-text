@@ -24,6 +24,9 @@ consider -> ?
 tabernacle -> tent?
 meditate in -> meditate on?
 reason in -> reason upon?
+Transgressors -> lawless?
+Transgress -> trespass
+perverse -> crooked?
 
 Historically, prescriptive grammar stated that, when expressing pure futurity (without any additional meaning such as desire or command), shall was to be used when the subject was in the first person, and will in other cases (e.g., "On Sunday, we shall go to church, and the preacher will read the Bible.") 
 Use choices of OCA Canada psalter
@@ -143,7 +146,7 @@ psalm,second pass,red book
 112,x,R
 113,
 114,x,R
-115,
+115,x,R
 116,
 117,
 118,x,R
