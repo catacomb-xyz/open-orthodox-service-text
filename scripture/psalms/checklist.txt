@@ -18,14 +18,15 @@ endure -> abide https://www.blueletterbible.org/lexicon/g1265/kjv/tr/0-1/
 
 travail -> ?
 request -> ?
-iniquity -> lawlessness
+iniquity -> lawlessness **UNDO**
 countenance -> face
 consider -> ?
 tabernacle -> tent?
 meditate in -> meditate on?
 reason in -> reason upon?
-Transgressors -> lawless?
-Transgress -> trespass
+Transgressors -> lawless **UNDO**
+Transgress -> trespass **UNDO**
+attend -> hearken
 
 https://www.blueletterbible.org/lexicon/g2347/lxx/lxx/0-1/ 
 affliction -> burden, burdened, burdening, pain, pained
