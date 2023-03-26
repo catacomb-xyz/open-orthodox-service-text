@@ -1,39 +1,6 @@
-proof read: 118:110
-verses: 11-22
-
 change ":" back to ","?
 look at "give thanks" vs "confess"
 forest -> wood (check LXX)
-those that??
-rivers -> floods?
-worship at the footstool vs worship the footstool
-use goodly
-earth, ground https://www.blueletterbible.org/lexicon/g1475/kjv/tr/0-1/
-make known https://www.blueletterbible.org/lexicon/g1804/lxx/lxx/0-1/
-belly https://www.blueletterbible.org/lexicon/g1064/lxx/lxx/0-1/
-face https://www.blueletterbible.org/lexicon/g4383/kjv/tr/0-1/
-compassions https://www.blueletterbible.org/lexicon/g3628/kjv/tr/0-1/
-make https://www.blueletterbible.org/lexicon/g4160/kjv/tr/0-1/
-endure -> abide https://www.blueletterbible.org/lexicon/g1265/kjv/tr/0-1/
-
-travail -> ?
-request -> ?
-iniquity -> lawlessness **UNDO**
-countenance -> face
-consider -> ?
-tabernacle -> tent?
-meditate in -> meditate on?
-reason in -> reason upon?
-Transgressors -> lawless **UNDO**
-Transgress -> trespass **UNDO**
-
-https://www.blueletterbible.org/lexicon/g2347/lxx/lxx/0-1/ 
-affliction -> burden, burdened, burdening, pain, pained
-
-https://www.blueletterbible.org/lexicon/g2614/kjv/tr/0-1/
-pursue -> follow after, follow hard upon, closely follow
-
-proclaiming?
 
 Historically, prescriptive grammar stated that, when expressing pure futurity (without any additional meaning such as desire or command), shall was to be used when the subject was in the first person, and will in other cases (e.g., "On Sunday, we shall go to church, and the preacher will read the Bible.") 
 Use choices of OCA Canada psalter
@@ -44,9 +11,9 @@ psalm,second pass,red book
 3-DONE
 4-DONE
 5-DONE
-6,x,R
-7,x,R
-8,x,R
+6-DONE
+7-DONE
+8-DONE
 9,x,R
 10,x,R
 11,x,R
