@@ -14,8 +14,8 @@ psalm,second pass,red book
 6-DONE
 7-DONE
 8-DONE
-9,x,R
-10,x,R
+9-DONE
+10-DONE
 11,x,R
 12,x,R
 13,x,R
