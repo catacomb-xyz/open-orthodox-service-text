@@ -24,7 +24,7 @@ psalm,second pass,red book
 16,x,R
 17,x,R
 18,x
-19,x,R
+19-DONE
 20,x,R
 21,x
 22,x,R
