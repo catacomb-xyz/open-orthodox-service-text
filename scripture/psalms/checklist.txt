@@ -16,11 +16,11 @@ psalm,second pass,red book
 8-DONE
 9-DONE
 10-DONE
-11,x,R
-12,x,R
-13,x,R
-14,x,R
-15,x,R
+11-DONE
+12-DONE
+13-DONE
+14-DONE
+15-DONE
 16,x,R
 17,x,R
 18,x
