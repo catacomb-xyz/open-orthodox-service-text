@@ -1,11 +1,12 @@
 change ":" back to ","?
 look at "give thanks" vs "confess"
 forest -> wood (check LXX)
+witnesses -> testimonies
 
 Historically, prescriptive grammar stated that, when expressing pure futurity (without any additional meaning such as desire or command), shall was to be used when the subject was in the first person, and will in other cases (e.g., "On Sunday, we shall go to church, and the preacher will read the Bible.") 
 Use choices of OCA Canada psalter
 
-psalm,second pass,red book
+psalm
 1-DONE
 2-DONE
 3-DONE
@@ -21,19 +22,19 @@ psalm,second pass,red book
 13-DONE
 14-DONE
 15-DONE
-16,x,R
-17,x,R
-18,x
+16-DONE
+17-DONE
+18-DONE
 19-DONE
-20,x,R
+20-DONE
 21,x
-22,x,R
-23,x,R
-24,x
-25,x,R
-26,x,R
-27,x
-28,x,R
+22-DONE
+23-DONE
+24-DONE
+25-DONE
+26-DONE
+27-DONE
+28-DONE
 29,x,R
 30,x
 31,x,R
