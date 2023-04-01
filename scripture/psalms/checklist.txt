@@ -70,9 +70,9 @@ psalm
 61,x
 62,x
 63,x
-64,x,R
+64-DONE
 65,x,R
-66,x,R
+66-DONE
 67,x,R
 68,x,R
 69,x,R
