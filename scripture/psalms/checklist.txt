@@ -63,7 +63,7 @@ psalm
 54-DONE
 55,x,R
 56,x,R
-57,x,R
+57-DONE
 58,x,R
 59,x,R
 60,x,R
