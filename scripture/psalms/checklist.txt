@@ -57,12 +57,12 @@ psalm
 48,x
 49,x,R
 50-DONE
-51,x,R
-52,x,R
+51-DONE
+52-DONE
 53-DONE
 54-DONE
-55,x,R
-56,x,R
+55-DONE
+56-DONE
 57-DONE
 58,x,R
 59,x,R
