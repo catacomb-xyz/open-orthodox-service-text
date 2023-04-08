@@ -46,7 +46,7 @@ psalm
 37,x,R
 38,x,R
 39,x
-40,x
+40-DONE
 41,x
 42-DONE
 43,x
@@ -74,8 +74,8 @@ psalm
 65,x,R
 66-DONE
 67,x,R
-68,x,R
-69,x,R
+68-DONE
+69-DONE
 70,x,R
 71,x,R
 72,x,R
