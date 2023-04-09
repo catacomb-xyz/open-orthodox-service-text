@@ -86,13 +86,13 @@ psalm
 77,
 78,x,R
 79,x
-80,x,R
-81,x,R
+80-DONE
+81-DONE
 82,x,R
 83,x,R
 84,x,R
 85,x
-86,x,R
+86-DONE
 87,x
 88,
 89,x,R
