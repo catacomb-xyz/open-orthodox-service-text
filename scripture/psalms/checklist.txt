@@ -35,13 +35,13 @@ psalm
 26-DONE
 27-DONE
 28-DONE
-29,x,R
-30,x
-31,x,R
+29-DONE
+30-DONE
+31-DONE
 32,x,R
 33,x
 34,x
-35,x,R
+35-DONE
 36,x
 37,x,R
 38,x,R
