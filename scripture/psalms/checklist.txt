@@ -76,11 +76,11 @@ psalm
 67,x,R
 68-DONE
 69-DONE
-70,x,R
+70-DONE
 71,x,R
 72,x,R
 73,
-74,x,R
+74-DONE
 75,x
 76,x
 77,
