@@ -43,7 +43,7 @@ psalm
 34,x
 35-DONE
 36,x
-37,x,R
+37-DONE
 38,x,R
 39,x
 40-DONE
@@ -55,7 +55,7 @@ psalm
 46-DONE
 47-DONE
 48,x
-49,x,R
+49-DONE
 50-DONE
 51-DONE
 52-DONE
