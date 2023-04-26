@@ -65,8 +65,8 @@ psalm
 56-DONE
 57-DONE
 58,x,R
-59,x,R
-60,x,R
+59-DONE
+60-DONE
 61,x
 62-DONE
 63-DONE
