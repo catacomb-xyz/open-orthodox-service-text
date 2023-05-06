@@ -88,7 +88,7 @@ psalm
 79,x
 80-DONE
 81-DONE
-82,x,R
+82-DONE
 83,x,R
 84,x,R
 85,x
