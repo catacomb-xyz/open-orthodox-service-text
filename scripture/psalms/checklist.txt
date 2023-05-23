@@ -42,7 +42,7 @@ psalm
 36,x
 37-DONE
 38-DONE
-39,x
+39-DONE
 40-DONE
 41,x
 42-DONE
