@@ -27,3 +27,5 @@ G4970 exceeding -> greatly, well, mightily, utmost, utterly
 G2967 restrain -> hold back
 
 G936 reign -> be king, kingship, ruleth (avoids homophone)
+
+for ever and ever -> aeon -> ages
