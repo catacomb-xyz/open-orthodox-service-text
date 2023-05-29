@@ -2,6 +2,7 @@ change ":" back to ","?
 look at "give thanks" vs "confess"
 forest -> wood (check LXX)
 witnesses -> testimonies
+make to live -> quicken
 
 psalm
 1-DONE
@@ -82,7 +83,7 @@ psalm
 76-DONE
 77,
 78-DONE
-79,x
+79-DONE
 80-DONE
 81-DONE
 82-DONE
