@@ -3,6 +3,7 @@ look at "give thanks" vs "confess"
 forest -> wood (check LXX)
 witnesses -> testimonies
 make to live -> quicken
+shatter -> check KJV equivalent
 
 psalm
 1-DONE
@@ -77,7 +78,7 @@ psalm
 70-DONE
 71-DONE
 72-DONE
-73,
+73-DONE
 74-DONE
 75-DONE
 76-DONE
