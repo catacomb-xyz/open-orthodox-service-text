@@ -4,6 +4,8 @@ forest -> wood (check LXX)
 witnesses -> testimonies
 make to live -> quicken
 
+5231.5 defender hyperaspistēs ὑπερασπιστὴς -> shield
+
 psalm
 1-DONE
 2-DONE
@@ -117,7 +119,7 @@ psalm
 110-DONE
 111-DONE
 112-DONE
-113,
+113-DONE
 114-DONE
 115-DONE
 116-DONE
