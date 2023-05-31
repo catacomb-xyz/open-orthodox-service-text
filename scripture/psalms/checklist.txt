@@ -4,6 +4,8 @@ forest -> wood (check LXX)
 witnesses -> testimonies
 make to live -> quicken
 
+peoples -> people (most of the time: https://www.grammarly.com/blog/persons-people-peoples/)
+
 5231.5 defender hyperaspistēs ὑπερασπιστὴς -> shield
 
 psalm
@@ -49,7 +51,7 @@ psalm
 40-DONE
 41-DONE
 42-DONE
-43,x
+43-DONE
 44-DONE
 45-DONE
 46-DONE
