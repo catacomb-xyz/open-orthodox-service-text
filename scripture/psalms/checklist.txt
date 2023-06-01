@@ -1,6 +1,7 @@
 change ":" back to ","?
 make to live -> quicken
 
+waters -> water (be careful!)
 peoples -> people (most of the time: https://www.grammarly.com/blog/persons-people-peoples/)
 
 5231.5 defender hyperaspistēs ὑπερασπιστὴς -> shield
