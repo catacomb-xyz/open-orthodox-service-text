@@ -1,6 +1,7 @@
 change ":" back to ","?
 make to live -> quicken
 
+check adding "O" according to KJV
 waters -> water (be careful!)
 peoples -> people (most of the time: https://www.grammarly.com/blog/persons-people-peoples/)
 
@@ -107,7 +108,7 @@ psalm
 98-DONE
 99-DONE
 100-DONE
-101,x
+101-DONE
 102-DONE
 103-DONE
 104,
