@@ -1,5 +1,4 @@
 change ":" back to ","?
-make to live -> quicken
 
 check adding "O" according to KJV
 waters -> water (be careful!)
