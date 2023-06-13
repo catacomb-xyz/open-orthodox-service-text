@@ -4,6 +4,8 @@ check adding "O" according to KJV
 waters -> water (be careful!)
 peoples -> people (most of the time: https://www.grammarly.com/blog/persons-people-peoples/)
 
+3588 "the" definite article check 
+
 psalm
 1-DONE
 2-DONE
