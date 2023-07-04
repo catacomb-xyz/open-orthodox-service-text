@@ -9,4 +9,4 @@ peoples -> people (most of the time: https://www.grammarly.com/blog/persons-peop
 
 search ". " and remove new sentence
 
-"the" check, next psalm: 37
+"the" check, next psalm: 44
